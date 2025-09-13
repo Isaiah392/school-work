@@ -1,12 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-print("Working directory:", os.getcwd())
+#print("Working directory:", os.getcwd())
 
 # Part One:
 # Read in the Default-of-Credit-Card-Clients.csv dataset using functions in Pandas
 # package and print the data in the first two rows.
-credit_card_data = pd.read_csv("data mining/Default-of-Credit-Card-Clients.csv")
+credit_card_data = pd.read_csv("Default-of-Credit-Card-Clients.csv")
 
 print(credit_card_data.head(2))
 
